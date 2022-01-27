@@ -1,3 +1,62 @@
 <resources>
-    <string name="app_name">CipherSecureAndroid</string>
+    <string name="app_name">Cipher Secure Test</string>
+    <string name="data">Data</string>
+    <string name="key">Key</string>
+    <string name="encrypt">Encrypt</string>
+    <string name="decrypt">Decrypt</string>
+    <string name="cipher">Cipher</string>
+    <string name="result">Result</string>
+    <string name="data_encrypted_original">HC1:6BFOXN%TSMAHN-H/UKC75*:47$7BXQ099%ZOGHH1C918W%+4ON1LZHP3E**TY599I0Y38 M96%KEG3983NS9SVBWVBDKBYLDN4D74D$ZJ*DJXQ62W5+N5KNQ99P$IO8$Q%47+Y53R0W*M5GE3UQUMH3 E9KG84WAN8-RK.W2*VB: B8KG/UI2YUQQPCCOJ%4CNCE*IHI53%PL8VLI6ZT6ECMR:69/9-3AKI63ZMD9RKU6JZ6Q59YPD1+J4OIMEDTJCJKDLEDL9CZTAGBINYD8/ST+C7:D:XIGBIQ1JXJCBHIVIJIZI*BJ.S20KTK-DC429ZILAPFVA.QOZXI$MI1VCOWC%PDU11%E5/97RJTN$K-PS0%9W*PP+PDPI6QKHXF$XIR-GM%O5PQC%G V0.%Q9.VDPIWKCPBJO/FB.CK.C1JAA/C6ECXCI*ZA763NEHA:GH:9:+A.3TL3Q**4N2LR.990LW 2 .G+:ID-4+0M*Z0:4M%*5.2QT*2QJOIGFSPTD0HSY0U 4172Q1WBF1*WMC 7.5V/-UDT0$BRYZ9E4MQZFC7UTK8$+KLG42GAS8T1J2BWS7CDD$C-CU32W0FW+.S:FK AN97QL%S5R2Q7U%REPMQB8QF10G-U21</string>
+    <string name="data_encrypted_js_processed">SEMxOjZCRk9YTiVUU01BSE4tSC9VS0M3NSo6NDckN0JYUTA5OSVaT0dISDFDOTE4VyUrNE9OMUxaSFAzRSoqVFk1OTlJMFkzOCBNOTYlS0VHMzk4M05TOVNWQldWQkRLQllMRE40RDc0RCRaSipESlhRNjJXNStONUtOUTk5UCRJTzgkUSU0NytZNTNSMFcqTTVHRTNVUVVNSDMgRTlLRzg0V0FOOC1SSy5XMipWQjogQjhLRy9VSTJZVVFRUENDT0olNENOQ0UqSUhJNTMlUEw4VkxJNlpUNkVDTVI6NjkvOS0zQUtJNjNaTUQ5UktVNkpaNlE1OVlQRDErSjRPSU1FRFRKQ0pLRExFREw5Q1pUQUdCSU5ZRDgvU1QrQzc6RDpYSUdCSVExSlhKQ0JISVZJSklaSSpCSi5TMjBLVEstREM0MjlaSUxBUEZWQS5RT1pYSSRNSTFWQ09XQyVQRFUxMSVFNS85N1JKVE4kSy1QUzAlOVcqUFArUERQSTZRS0hYRiRYSVItR00lTzVQUUMlRyBWMC4lUTkuVkRQSVdLQ1BCSk8vRkIuQ0suQzFKQUEvQzZFQ1hDSSpaQTc2M05FSEE6R0g6OTorQS4zVEwzUSoqNE4yTFIuOTkwTFcgMiAuRys6SUQtNCswTSpaMDo0TSUqNS4yUVQqMlFKT0lHRlNQVEQwSFNZMFUgNDE3MlExV0JGMSpXTUMgNy41Vi8tVURUMCRCUllaOUU0TVFaRkM3VVRLOCQrS0xHNDJHQVM4VDFKMkJXUzdDREQkQy1DVTMyVzBGVysuUzpGSyBBTjk3UUwlUzVSMlE3VSVSRVBNUUI4UUYxMEctVTIx</string>
+    <string name="data_sample">https://secreturl.com/end/point</string>
+    <string name="key_sample">secretkey</string>
+    <string-array name="ciphers">
+        <item>AES</item>
+        <item>AESWrap</item>
+        <item>AESWrap_128</item>
+        <item>AESWrap_192</item>
+        <item>AESWrap_256</item>
+        <item>AES_128/CBC/NoPadding</item>
+        <item>AES_128/CFB/NoPadding</item>
+        <item>AES_128/ECB/NoPadding</item>
+        <item>AES_128/GCM/NoPadding</item>
+        <item>AES_128/OFB/NoPadding</item>
+        <item>AES_192/CBC/NoPadding</item>
+        <item>AES_192/CFB/NoPadding</item>
+        <item>AES_192/ECB/NoPadding</item>
+        <item>AES_192/GCM/NoPadding</item>
+        <item>AES_192/OFB/NoPadding</item>
+        <item>AES_256/CBC/NoPadding</item>
+        <item>AES_256/CFB/NoPadding</item>
+        <item>AES_256/ECB/NoPadding</item>
+        <item>AES_256/GCM/NoPadding</item>
+        <item>AES_256/OFB/NoPadding</item>
+        <item>ARCFOUR</item>
+        <item>Blowfish</item>
+        <item>ChaCha20</item>
+        <item>ChaCha20-Poly1305</item>
+        <item>DES</item>
+        <item>DESede</item>
+        <item>DESedeWrap</item>
+        <item>PBEWithHmacSHA1AndAES_128</item>
+        <item>PBEWithHmacSHA1AndAES_256</item>
+        <item>PBEWithHmacSHA224AndAES_128</item>
+        <item>PBEWithHmacSHA224AndAES_256</item>
+        <item>PBEWithHmacSHA256AndAES_128</item>
+        <item>PBEWithHmacSHA256AndAES_256</item>
+        <item>PBEWithHmacSHA384AndAES_128</item>
+        <item>PBEWithHmacSHA384AndAES_256</item>
+        <item>PBEWithHmacSHA512AndAES_128</item>
+        <item>PBEWithHmacSHA512AndAES_256</item>
+        <item>PBEWithMD5AndDES</item>
+        <item>PBEWithMD5AndTripleDES</item>
+        <item>PBEWithSHA1AndDESede</item>
+        <item>PBEWithSHA1AndRC2_128</item>
+        <item>PBEWithSHA1AndRC2_40</item>
+        <item>PBEWithSHA1AndRC4_128</item>
+        <item>PBEWithSHA1AndRC4_40</item>
+        <item>RC2</item>
+        <item>RSA</item>
+        <item>RSA/ECB/PKCS1Padding</item>
+    </string-array>
 </resources>
